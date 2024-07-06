@@ -1,0 +1,32 @@
+@import url(../../variables.css);
+
+.outer-border {
+    height: 90vh;
+    width: 90vw;
+    background-color: var(--light-color);
+    border: solid
+}
+
+.upper-line {
+    height: 20px;
+    border-bottom: solid;
+    background-color: var(--main-color);
+}
+
+.window-main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+
+}
+
+.job-title {
+
+}
+
+.know-more-button {
+    background-color: var(--main-color) !important;
+}

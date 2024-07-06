@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/menu/menuItem'
+import HomePageWindow from './components/homePageWindow/homePageWindow';
 
 function App() {
-  console.log("test deploy")
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src="../assets/emma_darbois_photo.jpeg" className="App-logo" alt="Photo_de_profil" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Emma Darbois */}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <HomePageWindow/>
     </div>
   );
 }
